@@ -1,0 +1,16 @@
+Answer the following questions :
+1. What were your results from compare_cow_transport_algorithms? Which 
+algorithm runs faster? Why? 
+2. Does the greedy algorithm return the optimal solution? Why/why not? 
+3. Does the brute force algorithm return the optimal solution? Why/why not? 
+
+Answers:
+1. My results were:
+Time for calculating greedy: 4.291534423828125e-05
+Time for calculating brute_force: 0.6568689346313477
+
+    We see that greedy is a several orders of magnitude faster
+
+2. Greedy is not guaranteed to return the optimal solution because it checks for any possible combination of valid(considering the weight limit) trips that can transport all of the cows.
+
+3. Brute force returns the optimal solution because it searches for every possible combination of valid trips that can transport all of the cows and chooses the combination with least trips.
